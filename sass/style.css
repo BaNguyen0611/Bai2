@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/font/OpenSans-Bold.eot"), url("/font/OpenSans-Bold.svg"), url("/font/OpenSans-Bold.ttf"), url("/font/OpenSans-Bold.woff"), url("/font/OpenSans-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Quattrocento Sans", sans-serif;
+  src: url("/font/QuattrocentoSans-Bold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.container__title {
+  font-size: 36px;
+  line-height: 1.16;
+  color: #292f36;
+  padding-left: 13px;
+  border-left: 9px solid #e1e6ea;
+}
+.container__title:first-child {
+  color: #ffffff;
+  padding-left: 0;
+  border-left: 0;
+}
+
+.header {
+  background-color: #1d2126;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  justify-content: center;
+}
+.header__logo img {
+  height: 17px;
+  margin-top: 33px;
+}
+.header__menu ul {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+.header__menu__submenu {
+  padding: 8px 9px;
+  border: 2px solid #1d2126;
+  margin-right: 8px;
+}
+.header__menu__submenu a {
+  color: #a4aead;
+  font-size: 14px;
+}
+.header__menu__submenu:first-child {
+  border: 2px solid #23b7a4;
+  border-radius: 5px;
+}
+.header__menu__submenu:first-child a {
+  color: #23b7a4;
+}
+.header__menu__submenu:last-child {
+  margin-right: 0;
+}
+.header__menu__submenu:hover {
+  border: 2px solid #5b6168;
+  border-radius: 5px;
+}
+
+.banner {
+  background-image: url("../img/pic.png");
+  background-repeat: no-repeat;
+  height: 661px;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
